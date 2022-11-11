@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2? family= Inter:wght@100;200;300;400;500;600;700;800;900 & display=swap');
+
+html {
+    font-size: 16px;
+    font-family: 'inter'sans-serif;
+}
+
+#principal{
+    width: 20rem;
+    height: 100.3125rem;
+    background-color: #043873;
+    margin: 0rem;
+}
+
+.area_header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 3.49%;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    font-family: 'Inter';
+    font-size: 1.2275rem;
+    margin: 1rem;
+    line-height: 1.4856rem;
+    color: #ffffff;
+}
+
+.logo__tamanho {
+    padding-right: 0.4387rem;
+    width: 1.6225rem;
+    height: 1.2718rem;
+}
+
+.menu {
+    display:flex;
+    justify-content:space-evenly;
+    flex-direction:column;
+    margin: 12px;
+    margin-top: 16px;
+    margin-right: 16px;
+}
+
+.linha {
+    width: 42px;
+    height: 1px;
+    background-color: #ffffff;
+}
+
+
+.area__main {
+    background-image: url(../img/riscos.png);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 34.40%;
+}
+
+.botao {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 14.5rem;
+    height: 4.375rem;
+    background: #4F9CF9;
+    border-radius: 8px;
+    justify-content: center;
+}
+
+.botao__texto {
+    font-family: 'inter';
+    font-weight: 400;
+    font-size: 1.125rem;
+    line-height: 1.875rem;
+    color: #ffffff;
+    
+}
+
+.texto__principal {
+    font-family: 'inter';
+    font-style: normal;
+    margin: 0rem;
+    font-weight: 700;
+    font-size: 2.25rem;
+    line-height: 2.75rem;
+    text-align: center;
+    color: #ffffff;
+}
+
+.texto__home{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 1rem;
+}
+
+.texto__principal-baixo {
+    display: flex;
+    text-align: justify;
+    font-style: normal;
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 1.125rem;
+    line-height: 1.875rem;
+    text-align: center;
+}
