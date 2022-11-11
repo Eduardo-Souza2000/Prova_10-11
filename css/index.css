@@ -123,3 +123,9 @@ html {
     height: 24.625rem;
     margin: 1rem;
  }
+
+ .pagina__meio {
+    background-color: #ffffff;
+    width: 100%;
+    height: 50.90%;
+ }
